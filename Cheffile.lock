@@ -1,0 +1,30 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    application (3.0.0)
+    ark (0.7.2)
+    java (1.22.0)
+    openssl (1.1.0)
+    solr_app (0.0.3)
+      application (>= 0.0.0)
+      application_java (>= 1.1.0)
+      ark (>= 0.0.0)
+      tomcat (>= 0.0.0)
+    tomcat (0.15.10)
+      java (>= 0.0.0)
+      openssl (>= 0.0.0)
+
+GIT
+  remote: https://github.com/poise/application_java
+  ref: master
+  sha: cbb023366bbd666e9026586da7a6aa200c4fe1ec
+  specs:
+    application_java (3.0.1)
+      application (~> 3.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+DEPENDENCIES
+  application_java (>= 0)
+  solr_app (= 0.0.3)
+
