@@ -35,7 +35,7 @@ If you discover any bugs, feel free to create an issue on GitHub fork and send u
 
 ## Authors
 
-* mparker17 (https://github.com/mparker17)
+* mparker17 (https://github.com/mparker17), sponsored by [OpenConcept Consulting Inc.](http://openconcept.ca/).
 
 
 ## Contributing
