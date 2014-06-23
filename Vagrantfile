@@ -17,6 +17,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network :forwarded_port, guest: 8080, host: 8080, auto_correct: true
 
   config.vm.provision "puppet" do |puppet|
+    puppet.module_path = "modules"
     puppet.facter = {
       "fqdn" => "solr"
     }

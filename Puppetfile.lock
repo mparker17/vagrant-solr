@@ -1,8 +1,12 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
+    puppetlabs/apt (1.5.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/stdlib (4.2.2)
     vamsee/solr (0.0.6)
 
 DEPENDENCIES
+  puppetlabs/apt (>= 0)
   vamsee/solr (>= 0)
 
