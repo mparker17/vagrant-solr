@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'librarian-chef', '~> 0.0.2'
+gem 'puppet'
+gem 'librarian-puppet', '0.9.13'

@@ -1,3 +1,5 @@
 .vagrant/
-cookbooks/
+.librarian/
 tmp/
+.tmp/
+modules/

@@ -1,0 +1,8 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    vamsee/solr (0.0.6)
+
+DEPENDENCIES
+  vamsee/solr (>= 0)
+
